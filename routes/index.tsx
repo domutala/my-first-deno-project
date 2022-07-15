@@ -1,6 +1,13 @@
 /** @jsx h */
 import { h } from "preact";
 import Counter from "../islands/Counter.tsx";
+import sass from "https://deno.land/x/denosass@1.0.4/mod.ts";
+
+const compiler = sass(`
+    >.sect1 {
+  background-color:red;      
+    }
+`);
 
 export default function Home() {
   return (
