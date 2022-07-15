@@ -1,13 +1,6 @@
 /** @jsx h */
 import { h } from "preact";
 import Counter from "../islands/Counter.tsx";
-import sass from "https://deno.land/x/denosass@1.0.4/mod.ts";
-
-const compiler = sass(`
-    >.sect1 {
-  background-color:red;      
-    }
-`);
 
 export default function Home() {
   return (
@@ -17,10 +10,10 @@ export default function Home() {
         height="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
-      <div class="sect1">
+      <div class="sect1" >
         
         <img
-        src="/img11.png"
+        src="/img13.png"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       </div>
